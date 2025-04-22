@@ -11,7 +11,9 @@ const Profile = () => {
         dark:[&::-webkit-scrollbar-track]:bg-neutral-700
         dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500 '>
             <div className=' text-center ml-5'>
-            <img className='rounded-full border-2 border-dotted p-2' src="/WhatsApp_Image_2025-02-16_at_20.53.49_7f2cd05f-removebg-preview.png" alt="" />
+           
+            <img className='rounded-full border-2 border-dotted p-2' src="https://i.ibb.co.com/C5Rsmk3L/Smart-BG-2025-02-20-3c12c416-3f33-4c77-99d7-2754d17ae4f4.png" alt="" />
+            
             </div>
          <div className=' text-center'>
          <h1 className='text-3xl font-bold'>Sajedul_tasin</h1>
