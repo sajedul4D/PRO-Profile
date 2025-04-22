@@ -48,7 +48,14 @@ const Profile = () => {
          </div>
          </div>
          <div className='space-y-2'>
-            <button className='btn w-full text-xl flex justify-center items-center  ' title='sajedultasin17@gmail.com'><MdOutlineAttachEmail className=''></MdOutlineAttachEmail> Contact</button> 
+            <button className='btn w-full text-xl flex justify-center items-center  ' title='sajedultasin17@gmail.com'> 
+            <div className="dropdown dropdown-bottom dropdown-center">
+  <div tabIndex={0} role="button" className="btn m-1"><MdOutlineAttachEmail className=''></MdOutlineAttachEmail> Contact</div>
+  <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
+    <li><a>sajedultasin17@gmail.com</a></li>
+    <li><a>01612928037</a></li>
+  </ul>
+</div></button> 
             <button className='btn w-full text-xl flex justify-center items-center r' ><CiSaveUp1></CiSaveUp1> Resume</button>
             
             
